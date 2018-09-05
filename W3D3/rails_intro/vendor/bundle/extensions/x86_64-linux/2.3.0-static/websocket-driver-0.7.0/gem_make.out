@@ -1,0 +1,15 @@
+current directory: /media/cornelis/Storage/Home/Documents/Academic/AppAcademy/aA-homeworks/W3D3/rails_intro/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+/home/cornelis/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20180904-18692-16wmqsd.rb extconf.rb
+creating Makefile
+
+current directory: /media/cornelis/Storage/Home/Documents/Academic/AppAcademy/aA-homeworks/W3D3/rails_intro/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /media/cornelis/Storage/Home/Documents/Academic/AppAcademy/aA-homeworks/W3D3/rails_intro/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /media/cornelis/Storage/Home/Documents/Academic/AppAcademy/aA-homeworks/W3D3/rails_intro/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20180904-18692-ad8d4u
