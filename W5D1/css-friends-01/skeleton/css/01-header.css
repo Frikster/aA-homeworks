@@ -1,1 +1,25 @@
 /* PHASE 1: Header */
+
+.header a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.header-nav {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.header-logo {
+  background: red;
+  float: left;
+}
+
+.header-list {
+  background: red;
+  float: right;
+}
+
+.header-list > li {
+  float: left;
+}
