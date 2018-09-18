@@ -1,0 +1,15 @@
+current directory: /media/cornelis/Storage/Home/Documents/Academic/AppAcademy/aA-homeworks/W5D2/skeleton/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/home/cornelis/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20180917-12030-1k5tvk1.rb extconf.rb
+creating Makefile
+
+current directory: /media/cornelis/Storage/Home/Documents/Academic/AppAcademy/aA-homeworks/W5D2/skeleton/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /media/cornelis/Storage/Home/Documents/Academic/AppAcademy/aA-homeworks/W5D2/skeleton/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /media/cornelis/Storage/Home/Documents/Academic/AppAcademy/aA-homeworks/W5D2/skeleton/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20180917-12030-sptjxi/bindex
