@@ -29,8 +29,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   // adding new photos
+  const togglePhoto = e => {
+    e.preventDefault();
+    let classList = document.querySelector(".photo-form-container").classList;
+    if(Object.values(classList).includes('hidden')) {
+      classList.remove('hidden');
+    } else {
+      classList.add('hidden');
+    }
+  }
 
-  // --- your code here!
+  const toggle = document.querySelector(".photo-show-button");
+  toggle.addEventListener("click", togglePhoto);
 
 
 
