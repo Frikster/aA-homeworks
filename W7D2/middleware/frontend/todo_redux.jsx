@@ -7,7 +7,7 @@ import Root from './components/root';
 document.addEventListener('DOMContentLoaded', () => {
   const preloadedState = localStorage.state ?
     JSON.parse(localStorage.state) : {};
-  const store = configureStore(preloadedState);
+  let store = configureStore(preloadedState);
   // store.dispatch = addLoggingToDispatch(store); Phase 1
   // addLoggingToDispatch(store);
   // store = applyMiddlewares(store, [addLoggingToDispatch]);

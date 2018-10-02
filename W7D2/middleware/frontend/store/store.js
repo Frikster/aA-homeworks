@@ -13,7 +13,7 @@ const configureStore = (preloadedState = {}) => {
 const addLoggingToDispatch = store => next => action => {
   console.log(store.getState());
   console.log(action);
-  store.dispatch(action);
+  next(action);
   console.log(store.getState());
 };
 
